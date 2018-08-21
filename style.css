@@ -1,0 +1,122 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.main-menu{
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+  
+}
+.main-menu .main-menu-list{
+    display: inline-flex;
+    list-style: none;
+   
+}
+.main-menu-list .menu-link{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.main-menu-list .menu-link:hover{
+    color: coral;
+}
+.logo{
+    display: block;
+    position: absolute;
+    left: 0;
+}
+.logo-img{
+    width: 100%;
+    height: auto;
+    max-width: 170px;
+}
+.icons{
+    position: absolute;
+    right: 0;
+}
+.icons> ul{
+    list-style: none;
+    display: inline-flex;
+}
+.icons> ul li {
+    margin-right: 5px;
+}
+.icons> ul li:hover{
+    color: coral;
+}
+.carro{
+    max-height: 500px;
+
+}
+.box-container{
+    display: inline-block;
+    position: relative;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 250px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.box{
+    height: auto;
+    width: 100%;
+    
+}
+.box:hover{
+    background: #0000008a;
+}
+.img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://cdn.shopify.com/s/files/1/1642/1735/files/for-women_s_13b77293-b12f-4170-af51-911330fcb069_2000x.jpg?v=1482892583");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 230px;
+    
+}
+.img-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://cdn.shopify.com/s/files/1/1642/1735/files/outerwear_13a51c98-b272-4b30-94a5-450fc9860a1f_2000x.jpg?v=1482892964");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 230px;
+    
+}
+.img-box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://cdn.shopify.com/s/files/1/1642/1735/files/accessories_5b62d709-2fc4-4304-9228-b8ed9b375023_2000x.jpg?v=1482892949");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 230px;
+    
+}
+.img-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+    height: 30px;
+    width: 80px;
+    background: #fff;
+}
